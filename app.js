@@ -14,7 +14,7 @@ buttons.forEach((elem) => {
       displayValue.textContent.length - 1
     );
 
-    console.log(lastValue);
+    // console.log(lastValue);
 
     if (e.target.textContent === "=") {
       try {
