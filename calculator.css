@@ -6,9 +6,9 @@
   /* align-items: center;
   justify-content: center; */
 
-  max-width: 420px;
+  max-width: 350px;
   width: 95%;
-  min-height: 75%;
+  /* min-height: 75%; */
 
   margin: 0 auto;
   padding: 25px;
@@ -94,5 +94,5 @@
 
 .btn__zero {
   border-radius: 45px;
-  padding: 0 22% 0;
+  padding: 0 23% 0;
 }

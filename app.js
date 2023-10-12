@@ -1,13 +1,20 @@
 let displayValue = document.querySelector(".display__value");
 let buttons = document.querySelectorAll(".btn");
 
-
 // console.log(button.textContent);
 // console.log(displayValue);
 
 buttons.forEach((elem) => {
   elem.addEventListener("click", (e) => {
-    console.log(e.target.textContent);
+    // console.log(e.target.textContent);
+
+    // Для сравнения последнее и предпоследнее число
+    let lastValue = displayValue.textContent.substring(
+      displayValue.textContent.length,
+      displayValue.textContent.length - 1
+    );
+
+    console.log(lastValue);
 
     if (e.target.textContent === "=") {
       try {
